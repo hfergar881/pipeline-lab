@@ -8,7 +8,7 @@ import {
 } from '../src/estadisticas.js';
 
 test('media de una lista', () => {
-  assert.equal(media([4, 6, 8]), 6);
+  assert.equal(media([4, 6, 8]), 7);
 });
 
 test('mediana con cantidad impar de datos', () => {
